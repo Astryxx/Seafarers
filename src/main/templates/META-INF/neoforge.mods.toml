@@ -1,0 +1,111 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Astryxx"
+logoFile="seafarers_logo.png"
+description='''
+Crew-based pirate sailing in the spirit of Sea of Thieves: a Sloop, a Brigantine and a Galleon, real ships of
+blocks you walk on while they sail. Choose your ship when you first join, then captain her: wind and sails, the
+anchor, cannons and cursed shot, harpoons, rowboats, holes, fire, bailing and sinking, the brig, mermaids, a galley,
+grog, a live map table, a quest table, and a bunk you respawn in wherever she sails. Crews, captains and locks for
+multiplayer; nearly everything is configurable. Works with Patchouli, Jade, JEI, EMI, JourneyMap, Open Parties and Claims, FTB Chunks, Simple Voice Chat and more (all optional).
+Fan-made. Not affiliated with or endorsed by Rare or Microsoft.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: with Patchouli installed, new players get the Captain's Handbook (the mod's guide book)
+[[dependencies.${mod_id}]]
+    modId="patchouli"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: with Jade installed, looking at a ship shows her captain, crew, water and lock
+[[dependencies.${mod_id}]]
+    modId="jade"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: info pages for the mod's items
+[[dependencies.${mod_id}]]
+    modId="jei"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: info pages for the mod's items
+[[dependencies.${mod_id}]]
+    modId="emi"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: a waypoint that follows your ship
+[[dependencies.${mod_id}]]
+    modId="journeymap"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: no launching in others' claims; parties share ships
+[[dependencies.${mod_id}]]
+    modId="openpartiesandclaims"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: no launching in others' claims
+[[dependencies.${mod_id}]]
+    modId="ftbchunks"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: teams share ships
+[[dependencies.${mod_id}]]
+    modId="ftbteams"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+# optional: a voice group for each crew
+[[dependencies.${mod_id}]]
+    modId="voicechat"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="sable"
+    type="required"
+    versionRange="[${sable_version},3)"
+    ordering="AFTER"
+    side="BOTH"
