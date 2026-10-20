@@ -1,0 +1,18 @@
+{
+  "name": "Stores",
+  "icon": "seafarers:supply_barrel",
+  "category": "seafarers:aboard",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:supply_barrel",
+      "text": "Her $(item)supply barrels$() hold cannonballs, planks and food, stocked when she's launched. The $(item)sea chest$() and $(item)casks$() are for your own things. They're all ordinary containers, so hoppers and storage mods work with them."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:water_barrel",
+      "text": "The $(item)water barrel$() works like a cauldron: fill a bucket or a bottle. It refills itself in time."
+    }
+  ]
+}

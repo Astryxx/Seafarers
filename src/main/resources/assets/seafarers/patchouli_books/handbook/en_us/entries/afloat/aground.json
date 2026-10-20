@@ -1,0 +1,16 @@
+{
+  "name": "Run Aground",
+  "icon": "minecraft:sand",
+  "category": "seafarers:afloat",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Stuck on the rocks or a beach and can't sail off? Any of her crew can have her $(l)towed off$() to open water nearby: the $(l)Free her$() button on the quest table's Ship tab, or $(l)/crew free$(). She comes up level and at rest, and her crew aboard come with her."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It only works when she's really aground, and once every few minutes. Patch her up first: a crash at speed holes the hull."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bottom=false": {
+      "model": "seafarers:block/hull_hole"
+    },
+    "bottom=true": {
+      "model": "seafarers:block/hull_hole_bottom"
+    }
+  }
+}

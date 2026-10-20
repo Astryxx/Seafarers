@@ -1,0 +1,16 @@
+{
+  "name": "Welcome Aboard",
+  "icon": "seafarers:sloop_deed",
+  "category": "seafarers:getting_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Seafarers puts a real ship under your feet: built of blocks, sailing on the sea, and yours to walk while she moves. You steer her, set her sails, fire her guns, bail her hold and, if it comes to it, go down with her.$(br2)This book covers everything aboard. Start with $(l)Your First Ship$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The first few times you use something aboard, a $(l)hint$() above your hotbar says how it works. Your $(l)advancements$() (the Seafarers tab) are a good list of things to try."
+    }
+  ]
+}

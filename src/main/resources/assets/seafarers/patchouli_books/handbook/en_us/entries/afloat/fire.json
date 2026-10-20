@@ -1,0 +1,12 @@
+{
+  "name": "Fire",
+  "icon": "seafarers:firebomb",
+  "category": "seafarers:afloat",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)firebomb$() sets a ship alight. Fire grows, spreads along the deck and in time burns through the planks, leaving holes.$(br2)Put it out by throwing water on it: a bucket of water from the hold or the water barrel."
+    }
+  ]
+}

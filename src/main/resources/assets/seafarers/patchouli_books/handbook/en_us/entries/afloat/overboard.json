@@ -1,0 +1,16 @@
+{
+  "name": "Overboard",
+  "icon": "minecraft:heart_of_the_sea",
+  "category": "seafarers:afloat",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fall overboard and get left behind? Keep swimming. Once you're well away from your ship, a $(l)mermaid$() comes up beside you. Swim to her, or use her, and she takes you back aboard, wherever your ship has sailed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "She only comes for crew whose ship is still afloat, and goes again once you're back near your ship or out of the water."
+    }
+  ]
+}

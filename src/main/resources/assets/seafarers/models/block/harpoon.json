@@ -1,0 +1,215 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "w": "seafarers:block/helm_wood",
+    "i": "seafarers:block/cannon_iron",
+    "r": "seafarers:block/rope",
+    "particle": "seafarers:block/cannon_iron"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        -2
+      ],
+      "to": [
+        12,
+        1.5,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#i",
+          "uv": [
+            4,
+            14.5,
+            12,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#i",
+          "uv": [
+            4,
+            14.5,
+            12,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#i",
+          "uv": [
+            8,
+            14.5,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#i",
+          "uv": [
+            8,
+            14.5,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#i",
+          "uv": [
+            4,
+            8,
+            12,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#i",
+          "uv": [
+            4,
+            8,
+            12,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        1.5,
+        -0.5
+      ],
+      "to": [
+        10.5,
+        9.5,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#w",
+          "uv": [
+            5.5,
+            6.5,
+            10.5,
+            14.5
+          ]
+        },
+        "south": {
+          "texture": "#w",
+          "uv": [
+            5.5,
+            6.5,
+            10.5,
+            14.5
+          ]
+        },
+        "east": {
+          "texture": "#w",
+          "uv": [
+            11.0,
+            6.5,
+            16.0,
+            14.5
+          ]
+        },
+        "west": {
+          "texture": "#w",
+          "uv": [
+            11.0,
+            6.5,
+            16.0,
+            14.5
+          ]
+        },
+        "up": {
+          "texture": "#w",
+          "uv": [
+            5.5,
+            11.0,
+            10.5,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#w",
+          "uv": [
+            5.5,
+            11.0,
+            10.5,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        9.5,
+        -1
+      ],
+      "to": [
+        11,
+        10.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#i",
+          "uv": [
+            5,
+            5.5,
+            11,
+            6.5
+          ]
+        },
+        "south": {
+          "texture": "#i",
+          "uv": [
+            5,
+            5.5,
+            11,
+            6.5
+          ]
+        },
+        "east": {
+          "texture": "#i",
+          "uv": [
+            10,
+            5.5,
+            16.0,
+            6.5
+          ]
+        },
+        "west": {
+          "texture": "#i",
+          "uv": [
+            10,
+            5.5,
+            16.0,
+            6.5
+          ]
+        },
+        "up": {
+          "texture": "#i",
+          "uv": [
+            5,
+            10,
+            11,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#i",
+          "uv": [
+            5,
+            10,
+            11,
+            16.0
+          ]
+        }
+      }
+    }
+  ]
+}

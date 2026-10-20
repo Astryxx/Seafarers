@@ -1,0 +1,7 @@
+{
+  "selector": "seafarers:keel",
+  "properties": {
+    "sable:mass": 4.0,
+    "sable:volume": 0.5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Finding Your Ship",
+  "icon": "seafarers:ships_compass",
+  "category": "seafarers:getting_started",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:ships_compass",
+      "text": "The $(item)Ship's Compass$() points to the ship you crew, wherever she's sailed; hold it to see how far she is. You get one with your first deed, and you can craft more from a $(item)compass$() and a $(item)copper ingot$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If she's too far away to be tracked, the needle points to where she was last seen. With no ship, it spins.$(br2)Sleep in her $(l)bunk$() and you'll respawn aboard her wherever she is, so you can always get back to her (see $(l)Life Aboard$())."
+    }
+  ]
+}

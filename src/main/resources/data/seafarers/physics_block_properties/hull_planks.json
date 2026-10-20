@@ -1,0 +1,12 @@
+{
+  "selector": "seafarers:hull_planks",
+  "properties": {
+    "sable:mass": 0.16,
+    "sable:volume": 2.0
+  },
+  "overrides": {
+    "flooded=true": {
+      "sable:volume": 0.2
+    }
+  }
+}

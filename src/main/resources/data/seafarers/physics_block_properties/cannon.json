@@ -1,0 +1,7 @@
+{
+  "selector": "seafarers:cannon",
+  "properties": {
+    "sable:mass": 2.0,
+    "sable:volume": 0.3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "seafarers:block/ship_bell"
+    },
+    "facing=south": {
+      "model": "seafarers:block/ship_bell",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "seafarers:block/ship_bell",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "seafarers:block/ship_bell",
+      "y": 270
+    }
+  }
+}

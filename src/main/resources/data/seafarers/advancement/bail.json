@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:ship_bucket"
+    },
+    "title": {
+      "translate": "advancements.seafarers.bail.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.bail.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bail": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "bail"
+      }
+    }
+  },
+  "parent": "seafarers:patch"
+}

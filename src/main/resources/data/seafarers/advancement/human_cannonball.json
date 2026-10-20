@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:cannon"
+    },
+    "title": {
+      "translate": "advancements.seafarers.human_cannonball.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.human_cannonball.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "human_cannonball": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "human_cannonball"
+      }
+    }
+  },
+  "parent": "seafarers:set_sail"
+}

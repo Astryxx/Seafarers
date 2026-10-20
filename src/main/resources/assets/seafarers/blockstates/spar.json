@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "seafarers:block/spar"
+    },
+    "axis=z": {
+      "model": "seafarers:block/spar",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "seafarers:block/spar",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

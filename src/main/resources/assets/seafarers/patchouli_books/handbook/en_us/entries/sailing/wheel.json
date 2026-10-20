@@ -1,0 +1,17 @@
+{
+  "name": "The Wheel",
+  "icon": "seafarers:helm",
+  "category": "seafarers:sailing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:helm",
+      "text": "Press $(k:use) on the $(item)wheel$() to take the helm. $(k:left) and $(k:right) turn the wheel smoothly; let go of the keys and it stays where you left it. Press $(k:sneak) to step away."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "She turns faster the faster she's going, and barely at all when she's stopped. Watch the bar above your hotbar: it shows the wind, your speed and how well your sail is drawing."
+    }
+  ]
+}

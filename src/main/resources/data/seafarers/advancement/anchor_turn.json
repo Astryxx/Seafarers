@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:anchor"
+    },
+    "title": {
+      "translate": "advancements.seafarers.anchor_turn.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.anchor_turn.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "anchor_turn": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "anchor_turn"
+      }
+    }
+  },
+  "parent": "seafarers:full_sail"
+}

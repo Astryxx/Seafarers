@@ -1,0 +1,16 @@
+{
+  "name": "Sailing Together",
+  "icon": "seafarers:voyage_table",
+  "category": "seafarers:crew",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A sloop takes a crew of two, a brigantine three and a galleon four. Her $(l)captain$() invites players aboard: at her $(l)quest table$(), on the Crew tab, click a player standing nearby and press $(l)Invite$(). They click $(l)[Accept]$() in chat.$(br2)Crew respawn aboard, and everyone in a crew can use the ship."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Commands$()$(br)$(li)/crew invite <player>$(li)/crew accept$(li)/crew leave$(li)/crew list$(li)/crew choose: a ship of your own$(li)/crew reclaim: replace a lost deed$(li)/crew brig <player>, /crew release <player>: brig votes$(li)/crew free: off the rocks"
+    }
+  ]
+}

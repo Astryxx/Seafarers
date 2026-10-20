@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "supply=cannonballs": {
+      "model": "seafarers:block/supply_barrel_cannonballs"
+    },
+    "supply=planks": {
+      "model": "seafarers:block/supply_barrel_planks"
+    },
+    "supply=food": {
+      "model": "seafarers:block/supply_barrel_food"
+    },
+    "supply=grog": {
+      "model": "seafarers:block/supply_barrel_grog"
+    }
+  }
+}

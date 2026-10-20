@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:ship_lantern"
+    },
+    "title": {
+      "translate": "advancements.seafarers.went_down.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.went_down.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "went_down": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "went_down"
+      }
+    }
+  },
+  "parent": "seafarers:patch"
+}

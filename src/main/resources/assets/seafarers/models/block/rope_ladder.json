@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/ladder",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "texture": "seafarers:block/rope_ladder",
+    "particle": "seafarers:block/rope_ladder"
+  }
+}

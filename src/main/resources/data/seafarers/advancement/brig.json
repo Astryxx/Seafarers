@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:brig_door"
+    },
+    "title": {
+      "translate": "advancements.seafarers.brig.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.brig.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brig": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "brig"
+      }
+    }
+  },
+  "parent": "seafarers:crew"
+}

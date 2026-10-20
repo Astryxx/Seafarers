@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "advancements.seafarers.mermaid.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.mermaid.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mermaid": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "mermaid"
+      }
+    }
+  },
+  "parent": "seafarers:root"
+}

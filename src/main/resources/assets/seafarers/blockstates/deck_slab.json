@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "seafarers:block/deck_slab"
+    },
+    "type=top": {
+      "model": "seafarers:block/deck_slab_top"
+    },
+    "type=double": {
+      "model": "seafarers:block/deck_planks"
+    }
+  }
+}

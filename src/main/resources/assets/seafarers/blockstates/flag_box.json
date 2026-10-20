@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "seafarers:block/flag_box",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "seafarers:block/flag_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "seafarers:block/flag_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "seafarers:block/flag_box",
+      "y": 270
+    }
+  }
+}

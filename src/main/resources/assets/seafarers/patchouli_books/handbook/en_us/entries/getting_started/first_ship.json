@@ -1,0 +1,25 @@
+{
+  "name": "Your First Ship",
+  "icon": "seafarers:sloop_deed",
+  "category": "seafarers:getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The first time you join a world you choose your ship: the $(l)Sloop$(), the $(l)Brigantine$() or the $(l)Galleon$() (see $(l)The Three Ships$()).$(br2)You can also choose to $(l)join a crew$() and sail aboard a friend's ship instead; you can still get a ship of your own later."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:sloop_deed",
+      "text": "Choosing a ship gives you her $(item)deed$(). Take it to $(l)open water$(), well away from land and other ships (she's big!), look at the water and press $(k:use). She's launched with her bow the way you face, and you're her $(l)captain$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Name her$(): rename the deed in an $(item)anvil$() before you launch her, and she takes that name. You can rename her later at her quest table."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A deed is $(l)hard to lose$(): it won't burn, blow up, despawn or fall out of the world, and it stays with you when you die. If it's lost anyway, $(l)/crew reclaim$() gives you a new one, and the lost one stops working.$(br2)Deeds can't be crafted or found. Each player captains one ship at a time."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Ammunition",
+  "icon": "seafarers:cannonball",
+  "category": "seafarers:fighting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:cannonball",
+      "text": "$(item)Cannonballs$() hole hulls. Her supply barrels start with plenty, and you can craft more from iron nuggets."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:chain_shot",
+      "text": "$(item)Chain shot$() tears sails and breaks masts, but bounces off hulls."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:firebomb",
+      "text": "$(item)Firebombs$() set the ship they hit alight."
+    }
+  ]
+}

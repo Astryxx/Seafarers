@@ -1,0 +1,7 @@
+{
+  "selector": "seafarers:hull_hole",
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 0.0
+  }
+}

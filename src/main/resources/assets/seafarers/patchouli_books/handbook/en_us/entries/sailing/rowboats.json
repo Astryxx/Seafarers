@@ -1,0 +1,18 @@
+{
+  "name": "Rowboats",
+  "icon": "seafarers:rowboat",
+  "category": "seafarers:sailing",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:rowboat",
+      "text": "$(item)Rowboats$() wait, tied up, along the world's coasts, and anyone can row one. Take the $(item)rowing bench$(): $(k:forward) and $(k:back) row, $(k:left) and $(k:right) turn. Some carry a cannon or a harpoon gun."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:rowboat_hook",
+      "text": "Use the $(item)rowboat hook$() beside your ship's ladder to tie a rowboat on; she's towed wherever the ship goes."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Bells, Lanterns and Colours",
+  "icon": "seafarers:ship_bell",
+  "category": "seafarers:aboard",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:ship_bell",
+      "text": "Ring the $(item)bell$() on the mast to call your crew: they hear it and see who rang."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Put her $(item)lanterns$() out to sail dark at night. Hoist any banner at the masthead with the $(item)flag box$() up in the crow's nest. Use dye on the wheel to paint her hull, or on a sail rope to dye her sails."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "seafarers:cannonball"
+    },
+    {
+      "item": "seafarers:cannonball"
+    },
+    {
+      "item": "minecraft:chain"
+    }
+  ],
+  "result": {
+    "id": "seafarers:chain_shot",
+    "count": 2
+  }
+}

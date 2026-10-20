@@ -1,0 +1,16 @@
+{
+  "name": "For Server Owners",
+  "icon": "minecraft:command_block",
+  "category": "seafarers:crew",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nearly everything here can be changed: Mods, Seafarers, Config, or the file $(l)config/seafarers-common.toml$(). Each setting says what it does.$(br2)Crew sizes, sinking, replacement ships, locks, swaps, the wait between ships, a server ship limit, damage, fire, the wind and more."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)/crew admin ships$() lists every ship; $(l)tp$(), $(l)remove$(), $(l)lock$(), $(l)unlock$() and $(l)captain$() act on one. Permissions mods can grant $(l)seafarers.admin$(), $(l)seafarers.bypass.locks$() and $(l)seafarers.bypass.limits$()."
+    }
+  ]
+}

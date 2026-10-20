@@ -1,0 +1,80 @@
+{
+  "variants": {
+    "facing=north,part=0": {
+      "model": "seafarers:block/voyage_table",
+      "y": 0
+    },
+    "facing=north,part=1": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=north,part=2": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=north,part=3": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=north,part=4": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=north,part=5": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=east,part=0": {
+      "model": "seafarers:block/voyage_table",
+      "y": 90
+    },
+    "facing=east,part=1": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=east,part=2": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=east,part=3": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=east,part=4": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=east,part=5": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=south,part=0": {
+      "model": "seafarers:block/voyage_table",
+      "y": 180
+    },
+    "facing=south,part=1": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=south,part=2": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=south,part=3": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=south,part=4": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=south,part=5": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=west,part=0": {
+      "model": "seafarers:block/voyage_table",
+      "y": 270
+    },
+    "facing=west,part=1": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=west,part=2": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=west,part=3": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=west,part=4": {
+      "model": "seafarers:block/empty_part"
+    },
+    "facing=west,part=5": {
+      "model": "seafarers:block/empty_part"
+    }
+  }
+}

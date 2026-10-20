@@ -1,0 +1,17 @@
+{
+  "name": "Going Down",
+  "icon": "seafarers:sloop_deed",
+  "category": "seafarers:afloat",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When she's full of water there's no saving her: she goes down. Don't despair, sailor: a $(l)new ship$() of the same kind will be waiting for her crew nearby, and you'll respawn aboard her.$(br2)A ship whose whole crew has left her sinks on her own after a while."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrel",
+      "text": "Whatever was in her barrels, chests and casks floats up in $(item)shipwreck barrels$(). Anyone can open one, or catch it with a harpoon. They sink for good after a while."
+    }
+  ]
+}

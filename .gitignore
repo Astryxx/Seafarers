@@ -19,3 +19,11 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Seafarers: dev worlds, servers and clients, test screenshots, logs, caches (not part of the source)
+run/
+shots/
+*.log
+__pycache__/
+*.pyc
+.env

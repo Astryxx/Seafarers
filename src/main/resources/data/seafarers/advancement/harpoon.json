@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:harpoon"
+    },
+    "title": {
+      "translate": "advancements.seafarers.harpoon.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.harpoon.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "harpoon": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "harpoon"
+      }
+    }
+  },
+  "parent": "seafarers:root"
+}

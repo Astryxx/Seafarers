@@ -1,0 +1,13 @@
+{
+  "name": "Harpoon Guns",
+  "icon": "seafarers:harpoon",
+  "category": "seafarers:fighting",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:harpoon",
+      "text": "Man a $(item)harpoon gun$() with $(k:use), aim, and fire with $(k:attack). Hold $(k:forward) to reel in. It catches floating loot, or bites into land or another ship and pulls you to it."
+    }
+  ]
+}

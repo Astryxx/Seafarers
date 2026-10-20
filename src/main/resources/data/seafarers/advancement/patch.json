@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "advancements.seafarers.patch.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.patch.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "patch": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "patch"
+      }
+    }
+  },
+  "parent": "seafarers:set_sail"
+}

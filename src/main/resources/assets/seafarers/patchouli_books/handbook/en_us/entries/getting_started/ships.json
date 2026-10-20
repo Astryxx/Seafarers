@@ -1,0 +1,23 @@
+{
+  "name": "The Three Ships",
+  "icon": "seafarers:galleon_deed",
+  "category": "seafarers:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:sloop_deed",
+      "text": "The $(l)Sloop$(): one mast, two cannons, a crew of up to two. Small and nimble, quick to turn and to heave her anchor."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:brigantine_deed",
+      "text": "The $(l)Brigantine$(): two masts, four cannons, a crew of up to three, and a brig. The fastest ship of all with the wind on her beam, but she sinks the quickest: everything below is on one deck."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:galleon_deed",
+      "text": "The $(l)Galleon$(): three masts, eight cannons on her gun deck, a crew of up to four, and a brig. Fastest running downwind, but slow to turn: she needs her whole crew. Hardest to sink, until the water reaches her gun deck."
+    }
+  ]
+}

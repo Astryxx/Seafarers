@@ -1,0 +1,6 @@
+{
+  "selector": "seafarers:hull_trim",
+  "properties": {
+    "sable:mass": 0.3
+  }
+}

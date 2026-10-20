@@ -1,0 +1,12 @@
+{
+  "name": "Cursed Cannonballs",
+  "icon": "seafarers:jig_ball",
+  "category": "seafarers:fighting",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cursed cannonballs put a curse on the ship they hit and anyone they splash:$(br)$(li)$(l)Anchorball$(): drops her anchor$(li)$(l)Riggingball$(): furls her sails$(li)$(l)Ballastball$(): weighs her down$(li)$(l)Grogball$(): makes you drunk$(li)$(l)Limpball$(): slows you$(li)$(l)Venomball$(): poisons$(li)$(l)Wearyball$(): tires you$(li)$(l)Jigball$(): makes you dance"
+    }
+  ]
+}

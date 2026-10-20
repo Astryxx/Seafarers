@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:cannonball"
+    },
+    "title": {
+      "translate": "advancements.seafarers.hit_ship.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.hit_ship.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hit_ship": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "hit_ship"
+      }
+    }
+  },
+  "parent": "seafarers:set_sail"
+}

@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "hanging": "false",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/lantern"
+      }
+    },
+    {
+      "when": {
+        "hanging": "true",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/lantern_hanging"
+      }
+    },
+    {
+      "when": {
+        "hanging": "false",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "seafarers:block/ship_lantern_unlit"
+      }
+    },
+    {
+      "when": {
+        "hanging": "true",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "seafarers:block/ship_lantern_hanging_unlit"
+      }
+    },
+    {
+      "when": {
+        "deck": "true"
+      },
+      "apply": {
+        "model": "seafarers:block/deck_plate"
+      }
+    }
+  ]
+}

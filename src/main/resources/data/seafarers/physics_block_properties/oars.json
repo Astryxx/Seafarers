@@ -1,0 +1,7 @@
+{
+  "selector": "seafarers:oars",
+  "properties": {
+    "sable:mass": 0.2,
+    "sable:volume": 0.0
+  }
+}

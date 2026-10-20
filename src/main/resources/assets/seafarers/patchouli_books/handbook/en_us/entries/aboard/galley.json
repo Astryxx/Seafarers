@@ -1,0 +1,18 @@
+{
+  "name": "The Galley",
+  "icon": "seafarers:stove",
+  "category": "seafarers:aboard",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:stove",
+      "text": "Put raw food in the $(item)galley stove$()'s frying pan (any food that can be cooked). Watch it brown, and take it off when the smoke turns white. Leave it too long and it chars."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:supply_barrel",
+      "text": "The $(item)grog barrel$() fills a glass bottle or a bucket. Each drink makes you drunker. Too many and the world spins, and you'll be sick: catch it in an empty bucket."
+    }
+  ]
+}

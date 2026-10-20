@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:chain_shot"
+    },
+    "title": {
+      "translate": "advancements.seafarers.sink_enemy.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.sink_enemy.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sink_enemy": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "sink_enemy"
+      }
+    }
+  },
+  "parent": "seafarers:hit_ship"
+}

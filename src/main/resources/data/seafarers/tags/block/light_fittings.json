@@ -1,0 +1,23 @@
+{
+  "values": [
+    "seafarers:railing",
+    "seafarers:sail_yard",
+    "seafarers:sail_rope",
+    "seafarers:brace_rope",
+    "seafarers:flag",
+    "seafarers:mattress",
+    "seafarers:map_table",
+    "seafarers:rope_ladder",
+    "seafarers:bowsprit",
+    "seafarers:spar",
+    "seafarers:deck_slab",
+    "seafarers:voyage_table",
+    "seafarers:binnacle",
+    "seafarers:flag_box",
+    "seafarers:rowboat_hook",
+    "seafarers:harpoon",
+    "seafarers:sea_chest",
+    "seafarers:cask",
+    "seafarers:ship_bell"
+  ]
+}

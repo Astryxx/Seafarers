@@ -1,0 +1,17 @@
+{
+  "name": "Cannons",
+  "icon": "seafarers:cannon",
+  "category": "seafarers:fighting",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:cannon",
+      "text": "Load a $(item)cannon$() by pressing $(k:use) with ammunition in hand. Press $(k:use) again to man it: the view moves behind the gun and follows your aim. $(k:attack) fires; $(k:sneak) steps away."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Lead your shot: ships move, and cannonballs drop over distance. A hit below the waterline does the most harm.$(br2)Man an empty cannon and press $(k:use) with nothing in hand to climb into the barrel, then fire to launch yourself across the sea."
+    }
+  ]
+}

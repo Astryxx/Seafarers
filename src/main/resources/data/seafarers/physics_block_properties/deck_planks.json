@@ -1,0 +1,6 @@
+{
+  "selector": "seafarers:deck_planks",
+  "properties": {
+    "sable:mass": 0.3
+  }
+}

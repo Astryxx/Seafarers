@@ -1,0 +1,17 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "seafarers:block/mast"
+      }
+    },
+    {
+      "when": {
+        "deck": "true"
+      },
+      "apply": {
+        "model": "seafarers:block/deck_plate"
+      }
+    }
+  ]
+}

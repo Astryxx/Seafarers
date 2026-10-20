@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "seafarers:block/figurehead",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "seafarers:block/figurehead",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "seafarers:block/figurehead",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "seafarers:block/figurehead",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "The Anchor",
+  "icon": "seafarers:anchor",
+  "category": "seafarers:sailing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:anchor",
+      "text": "Press $(k:use) on the $(item)capstan$() to drop the anchor: she stops dead. Hold $(k:use) to heave it back up. Let go before it's all the way up and it unwinds again, so keep heaving."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)The anchor turn:$() drop the anchor at speed with the wheel hard over and she pivots on the spot. Handy for a tight turn, or to swing her guns round in a fight."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The bigger ships' anchors are heavier. Their capstans have more bars: three on the Brigantine, four on the Galleon, and every crewmate on a bar heaves it up faster."
+    }
+  ]
+}

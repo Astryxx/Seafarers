@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "seafarers:supply_barrel",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "seafarers:supply_barrel",
+              "properties": [
+                "supply"
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

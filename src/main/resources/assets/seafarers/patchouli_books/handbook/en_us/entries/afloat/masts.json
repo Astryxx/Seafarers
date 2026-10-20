@@ -1,0 +1,12 @@
+{
+  "name": "Broken Masts",
+  "icon": "seafarers:chain_shot",
+  "category": "seafarers:afloat",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Chain shot$() tears sails and breaks masts. A broken mast drops her sail, and she can't be sailed until it's mended: press $(k:use) on the mast with $(item)planks$(). A torn sail spills some wind until it's repaired."
+    }
+  ]
+}

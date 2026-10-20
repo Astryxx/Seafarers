@@ -1,0 +1,17 @@
+{
+  "name": "The Brig",
+  "icon": "seafarers:brig_door",
+  "category": "seafarers:crew",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:brig_door",
+      "text": "The Brigantine and Galleon have a $(l)brig$(). When $(l)most of the crew$() votes for it, a crewmate is locked in. Vote on the quest table's $(l)Crew$() tab or with $(l)/crew brig$(); vote again to take it back."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In the brig you can't work the ship, but you can still bail with a bucket. Explosions don't reach in. You respawn there, and you're put straight back if you get out.$(br2)After a few minutes the crew can vote you out again ($(l)/crew release <player>$(); your own vote counts). Leaving the crew ends it too."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "The Bunk",
+  "icon": "seafarers:mattress",
+  "category": "seafarers:aboard",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:mattress",
+      "text": "Sleep in her $(item)bunk$() to make her your home: when you die, you'll respawn aboard her wherever she's sailed. Sleeping in a bed ashore makes that your home again."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "seafarers:cannon",
+    "seafarers:binnacle",
+    "seafarers:stove",
+    "seafarers:brig_door"
+  ]
+}

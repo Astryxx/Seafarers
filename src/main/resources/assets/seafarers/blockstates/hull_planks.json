@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "flooded=false": {
+      "model": "seafarers:block/hull_planks"
+    },
+    "flooded=true": {
+      "model": "seafarers:block/hull_planks_flooded"
+    }
+  }
+}

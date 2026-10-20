@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:voyage_table"
+    },
+    "title": {
+      "translate": "advancements.seafarers.crew.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.crew.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crew": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "crew"
+      }
+    }
+  },
+  "parent": "seafarers:root"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "The Map Table",
+  "icon": "seafarers:map_table",
+  "category": "seafarers:aboard",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:map_table",
+      "text": "The $(item)map table$() shows a chart of the seas around her, with her arrow moving as she sails: a blank sea chart, filled in by her crew. The table shows the chart as you left it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the table to unroll the chart. Drag to move it, scroll to zoom, click to put down an X, right click to rub one out, and C to find the ship again.$(br2)With a map mod, it opens that mod's map ($(k:sneak) for the chart)."
+    }
+  ]
+}

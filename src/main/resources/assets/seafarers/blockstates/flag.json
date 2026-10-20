@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,flying=false": {
+      "model": "seafarers:block/flag",
+      "y": 0
+    },
+    "facing=north,flying=true": {
+      "model": "seafarers:block/flag_staff",
+      "y": 0
+    },
+    "facing=east,flying=false": {
+      "model": "seafarers:block/flag",
+      "y": 90
+    },
+    "facing=east,flying=true": {
+      "model": "seafarers:block/flag_staff",
+      "y": 90
+    },
+    "facing=south,flying=false": {
+      "model": "seafarers:block/flag",
+      "y": 180
+    },
+    "facing=south,flying=true": {
+      "model": "seafarers:block/flag_staff",
+      "y": 180
+    },
+    "facing=west,flying=false": {
+      "model": "seafarers:block/flag",
+      "y": 270
+    },
+    "facing=west,flying=true": {
+      "model": "seafarers:block/flag_staff",
+      "y": 270
+    }
+  }
+}

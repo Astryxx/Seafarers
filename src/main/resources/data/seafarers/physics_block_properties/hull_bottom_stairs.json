@@ -1,0 +1,7 @@
+{
+  "selector": "seafarers:hull_bottom_stairs",
+  "properties": {
+    "sable:mass": 0.16,
+    "sable:volume": 1.5
+  }
+}

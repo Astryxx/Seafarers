@@ -1,0 +1,20 @@
+{
+  "name": "The Captain",
+  "icon": "seafarers:sloop_deed",
+  "category": "seafarers:crew",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Whoever launches a ship is her captain, marked with a star on the quest table. On the $(l)Crew$() tab the captain can click a crew member to $(l)Remove$() them or $(l)Make captain$() to hand her over. When a captain leaves, the next crew member takes command."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Locking her$(): on the $(l)Ship$() tab (or $(l)/crew lock$()). A locked ship's wheel, sails, guns, stores and bunks work only for her crew, and only they can break or build on her. Anyone can still walk aboard. New ships start locked."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Swapping her$(): the $(l)Ship$() tab's $(l)Swap ship$() button (or $(l)/crew swap$()) trades her for a new ship. She and $(l)everything aboard her$() are gone, so empty her stores first! You get a new deed, and your crew joins you on the new ship. There's a wait between free ships."
+    }
+  ]
+}

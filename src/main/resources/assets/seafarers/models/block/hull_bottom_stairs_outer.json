@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "seafarers:block/hull_bottom",
+    "top": "seafarers:block/hull_bottom",
+    "side": "seafarers:block/hull_bottom"
+  }
+}

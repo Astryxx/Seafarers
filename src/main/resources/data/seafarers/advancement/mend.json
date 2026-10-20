@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:mast"
+    },
+    "title": {
+      "translate": "advancements.seafarers.mend.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.mend.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mend": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "mend"
+      }
+    }
+  },
+  "parent": "seafarers:patch"
+}

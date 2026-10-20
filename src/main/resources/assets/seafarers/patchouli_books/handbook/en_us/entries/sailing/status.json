@@ -1,0 +1,16 @@
+{
+  "name": "Her Status",
+  "icon": "minecraft:compass",
+  "category": "seafarers:sailing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aboard, her $(l)status$() shows in the top left: her speed, a $(l)wind dial$() (her bow points up; the arrow is where the wind blows), and a row for each sail: how far it's let down, its angle, and whether it's $(l)full$(), luffing or slack."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The pips by each sail are her mast's health. Below them are the $(l)wheel$() (where the rudder is), then water and holes, fire and the anchor when there's something to tell.$(br2)Turn it off in Mods, Seafarers, Config."
+    }
+  ]
+}

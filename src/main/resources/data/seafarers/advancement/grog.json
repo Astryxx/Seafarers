@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:grog"
+    },
+    "title": {
+      "translate": "advancements.seafarers.grog.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.grog.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "grog": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "grog"
+      }
+    }
+  },
+  "parent": "seafarers:root"
+}

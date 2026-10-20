@@ -1,0 +1,26 @@
+{
+  "name": "Holes and Water",
+  "icon": "minecraft:oak_planks",
+  "category": "seafarers:afloat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A cannonball through the hull leaves a $(l)hole$(). Holes $(l)below the waterline$() let the sea in; holes above it don't, unless she sinks low enough to put them under.$(br2)Water rises in the hold, she sits lower and slows, and in the end she goes down.$(br2)Run her aground at speed and the hull is holed where she strikes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(l)Galleon$()'s deep lower deck takes a lot of water, and holes in her gun deck stay dry while she rides high. But once the water is over her lower deck it pours in fast. The $(l)Brigantine$() has only one deck below, and fills quickest of all."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_planks",
+      "text": "Patch a hole by pressing $(k:use) on it with $(item)planks$() in hand. Her supply barrels carry planks."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:ship_bucket",
+      "text": "Bail with a $(item)bucket$() from the bucket rack: fill it from the water in the hold, then throw it over the side with $(k:use). Patch first, then bail!"
+    }
+  ]
+}

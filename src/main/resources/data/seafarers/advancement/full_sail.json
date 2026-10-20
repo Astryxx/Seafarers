@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:sail_rope"
+    },
+    "title": {
+      "translate": "advancements.seafarers.full_sail.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.full_sail.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "full_sail": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "full_sail"
+      }
+    }
+  },
+  "parent": "seafarers:set_sail"
+}

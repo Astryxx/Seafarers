@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "seafarers:block/keel"
+    },
+    "axis=z": {
+      "model": "seafarers:block/keel_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "seafarers:block/keel_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

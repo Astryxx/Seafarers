@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "seafarers:jig_ball"
+    },
+    "title": {
+      "translate": "advancements.seafarers.curse.title"
+    },
+    "description": {
+      "translate": "advancements.seafarers.curse.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "curse": {
+      "trigger": "seafarers:feat",
+      "conditions": {
+        "event": "curse"
+      }
+    }
+  },
+  "parent": "seafarers:hit_ship"
+}

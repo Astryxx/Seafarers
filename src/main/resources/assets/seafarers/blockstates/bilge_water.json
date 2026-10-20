@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "level=1": {
+      "model": "seafarers:block/bilge_water_1"
+    },
+    "level=2": {
+      "model": "seafarers:block/bilge_water_2"
+    },
+    "level=3": {
+      "model": "seafarers:block/bilge_water_3"
+    },
+    "level=4": {
+      "model": "seafarers:block/bilge_water_4"
+    },
+    "level=5": {
+      "model": "seafarers:block/bilge_water_5"
+    },
+    "level=6": {
+      "model": "seafarers:block/bilge_water_6"
+    },
+    "level=7": {
+      "model": "seafarers:block/bilge_water_7"
+    },
+    "level=8": {
+      "model": "seafarers:block/bilge_water_8"
+    }
+  }
+}

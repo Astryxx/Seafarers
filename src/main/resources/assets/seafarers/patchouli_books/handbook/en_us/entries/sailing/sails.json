@@ -1,0 +1,26 @@
+{
+  "name": "The Sails",
+  "icon": "seafarers:sail_rope",
+  "category": "seafarers:sailing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:sail_rope",
+      "text": "Press $(k:use) on the $(item)Sail Length Cleat$() to take the rope. Hold $(k:forward) to let the sail down, $(k:back) to haul it up; $(k:sneak) lets go. Half a sail is slower, but easier to handle."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:brace_rope",
+      "text": "Take a $(item)Sail Angle Pulley$() the same way and hold $(k:left) or $(k:right) to swing the sail round. A sail square to the wind pulls hardest; edge-on, hardly at all."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(l)wind$() shifts every few minutes. With it behind you, set the sail square; with it on your beam, angle the sail to match. The status bar tells you how well the sail is drawing, so trim until it says it's full."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Brigantine and the Galleon have a $(l)cleat and a pulley each side of every mast$(), at its foot: the mainmast's, the foremast's and the Galleon's mizzen's. Each sail is set and trimmed on its own, and she only makes her best speed with all of them drawing, so share the ropes out among the crew."
+    }
+  ]
+}

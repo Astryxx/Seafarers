@@ -1,0 +1,281 @@
+{
+  "rope_pull": {
+    "sounds": [
+      {
+        "name": "seafarers:rope_pull",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.rope_pull"
+  },
+  "pulley_creak": {
+    "sounds": [
+      {
+        "name": "seafarers:pulley_creak",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.pulley_creak"
+  },
+  "sail_snap": {
+    "sounds": [
+      {
+        "name": "seafarers:sail_snap",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.sail_snap"
+  },
+  "sail_luff": {
+    "sounds": [
+      {
+        "name": "seafarers:sail_luff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.sail_luff"
+  },
+  "wheel_turn": {
+    "sounds": [
+      {
+        "name": "seafarers:wheel_turn",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.wheel_turn"
+  },
+  "capstan_push": {
+    "sounds": [
+      {
+        "name": "seafarers:capstan_push",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.capstan_push"
+  },
+  "capstan_unwind": {
+    "sounds": [
+      {
+        "name": "seafarers:capstan_unwind",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.capstan_unwind"
+  },
+  "anchor_drop": {
+    "sounds": [
+      {
+        "name": "seafarers:anchor_drop",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.anchor_drop"
+  },
+  "anchor_bite": {
+    "sounds": [
+      {
+        "name": "seafarers:anchor_bite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.anchor_bite"
+  },
+  "anchor_up": {
+    "sounds": [
+      {
+        "name": "seafarers:anchor_up",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.anchor_up"
+  },
+  "cannon_fire": {
+    "sounds": [
+      {
+        "name": "seafarers:cannon_fire",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.cannon_fire"
+  },
+  "cannon_load": {
+    "sounds": [
+      {
+        "name": "seafarers:cannon_load",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.cannon_load"
+  },
+  "cannon_hit_hull": {
+    "sounds": [
+      {
+        "name": "seafarers:cannon_hit_hull",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.cannon_hit_hull"
+  },
+  "cannon_splash": {
+    "sounds": [
+      {
+        "name": "seafarers:cannon_splash",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.cannon_splash"
+  },
+  "chain_shot_whirl": {
+    "sounds": [
+      {
+        "name": "seafarers:chain_shot_whirl",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.chain_shot_whirl"
+  },
+  "harpoon_fire": {
+    "sounds": [
+      {
+        "name": "seafarers:harpoon_fire",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.harpoon_fire"
+  },
+  "harpoon_hit": {
+    "sounds": [
+      {
+        "name": "seafarers:harpoon_hit",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.harpoon_hit"
+  },
+  "harpoon_reel": {
+    "sounds": [
+      {
+        "name": "seafarers:harpoon_reel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.harpoon_reel"
+  },
+  "mast_crack": {
+    "sounds": [
+      {
+        "name": "seafarers:mast_crack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.mast_crack"
+  },
+  "hull_creak": {
+    "sounds": [
+      {
+        "name": "seafarers:hull_creak",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.hull_creak"
+  },
+  "water_rush": {
+    "sounds": [
+      {
+        "name": "seafarers:water_rush",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.water_rush"
+  },
+  "plank_hammer": {
+    "sounds": [
+      {
+        "name": "seafarers:plank_hammer",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.plank_hammer"
+  },
+  "ship_sinking": {
+    "sounds": [
+      {
+        "name": "seafarers:ship_sinking",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.ship_sinking"
+  },
+  "fire_burn": {
+    "sounds": [
+      {
+        "name": "seafarers:fire_burn",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.fire_burn"
+  },
+  "firebomb_break": {
+    "sounds": [
+      {
+        "name": "seafarers:firebomb_break",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.firebomb_break"
+  },
+  "bucket_scoop": {
+    "sounds": [
+      {
+        "name": "seafarers:bucket_scoop",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.bucket_scoop"
+  },
+  "bucket_throw": {
+    "sounds": [
+      {
+        "name": "seafarers:bucket_throw",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.bucket_throw"
+  },
+  "grog_drink": {
+    "sounds": [
+      {
+        "name": "seafarers:grog_drink",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.grog_drink"
+  },
+  "vomit": {
+    "sounds": [
+      {
+        "name": "seafarers:vomit",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.vomit"
+  },
+  "stove_sizzle": {
+    "sounds": [
+      {
+        "name": "seafarers:stove_sizzle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.stove_sizzle"
+  },
+  "ship_bell": {
+    "sounds": [
+      {
+        "name": "seafarers:ship_bell",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.seafarers.ship_bell"
+  }
+}

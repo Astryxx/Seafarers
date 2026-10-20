@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "w": "minecraft:block/water_still",
+    "particle": "minecraft:block/water_still"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        10,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#w",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#w",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#w",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#w",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#w",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#w",
+          "tintindex": 0
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

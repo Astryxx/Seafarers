@@ -1,0 +1,179 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "p": "seafarers:block/mast",
+    "f": "seafarers:block/flag",
+    "particle": "seafarers:block/flag"
+  },
+  "elements": [
+    {
+      "from": [
+        7.25,
+        0,
+        7.25
+      ],
+      "to": [
+        8.75,
+        16,
+        8.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#p"
+        },
+        "south": {
+          "texture": "#p"
+        },
+        "east": {
+          "texture": "#p"
+        },
+        "west": {
+          "texture": "#p"
+        },
+        "up": {
+          "texture": "#p"
+        },
+        "down": {
+          "texture": "#p"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        8,
+        7.75
+      ],
+      "to": [
+        18,
+        15,
+        8.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#f",
+          "uv": [
+            6,
+            1,
+            16.0,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#f",
+          "uv": [
+            6,
+            1,
+            16.0,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#f",
+          "uv": [
+            7.75,
+            1,
+            8.25,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#f",
+          "uv": [
+            7.75,
+            1,
+            8.25,
+            8
+          ]
+        },
+        "up": {
+          "texture": "#f",
+          "uv": [
+            6,
+            7.75,
+            16.0,
+            8.25
+          ]
+        },
+        "down": {
+          "texture": "#f",
+          "uv": [
+            6,
+            7.75,
+            16.0,
+            8.25
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        18,
+        9,
+        7.75
+      ],
+      "to": [
+        22,
+        14,
+        8.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#f",
+          "uv": [
+            10,
+            2,
+            14,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#f",
+          "uv": [
+            2,
+            2,
+            6,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#f",
+          "uv": [
+            7.75,
+            2,
+            8.25,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#f",
+          "uv": [
+            7.75,
+            2,
+            8.25,
+            7
+          ]
+        },
+        "up": {
+          "texture": "#f",
+          "uv": [
+            2,
+            7.75,
+            6,
+            8.25
+          ]
+        },
+        "down": {
+          "texture": "#f",
+          "uv": [
+            2,
+            7.75,
+            6,
+            8.25
+          ]
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

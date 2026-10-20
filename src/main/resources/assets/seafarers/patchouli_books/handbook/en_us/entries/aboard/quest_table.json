@@ -1,0 +1,13 @@
+{
+  "name": "The Quest Table",
+  "icon": "seafarers:voyage_table",
+  "category": "seafarers:aboard",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "seafarers:voyage_table",
+      "text": "The $(item)quest table$() is the ship's ledger: propose a treasure or explorer map as a voyage, and when the whole crew agrees, everyone gets a copy. It shows her crew and state, and renames her."
+    }
+  ]
+}
