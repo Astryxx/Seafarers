@@ -59,7 +59,8 @@ Minecraft 1.21.1, NeoForge 21.1, Sable required, Patchouli optional.
 - Sounds for everything: made for the mod with ElevenLabs' sound effects model.
 
 ### Crews and captains
-- Crews of two on the Sloop; the player who launches her is her **captain**.
+- Crews of two on the Sloop, three on the Brigantine and four on the Galleon; the player who launches her is
+  her **captain**.
 - On the quest table: invite nearby players, remove crew, hand the ship over, lock her (only her crew can use
   her), and swap her for a new ship (her crew comes along).
 - One ship per player, a wait between free ships, an optional server-wide ship limit, and abandoned ships sink
@@ -69,13 +70,13 @@ Minecraft 1.21.1, NeoForge 21.1, Sable required, Patchouli optional.
 
 ### Learning and goals
 - Hints the first few times you use each thing aboard, with your own keys.
-- 20 advancements, from Set Sail to Davy Jones' Locker.
+- 23 advancements, from Set Sail to Davy Jones' Locker.
 - Cannonball deaths have their own message ("blasted overboard by Alex's cannonball").
 - Rename a deed in an anvil to name your ship.
 - A sunk ship's stores float up in shipwreck barrels that anyone can open or harpoon.
 
 ### Settings
-- About 60 settings in `config/seafarers-common.toml` and `seafarers-client.toml`, each explained in plain
+- About 75 settings in `config/seafarers-common.toml` and `seafarers-client.toml`, each explained in plain
   English, also editable in game (Mods, Seafarers, Config).
 
 ### Guide

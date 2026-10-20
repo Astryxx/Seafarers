@@ -54,8 +54,8 @@ own handling, crew size and decks, and a **brig** on the two bigger ships for cr
 ### Built to fit in
 - No mixins of its own; vanilla is left alone. Storage works with hoppers and storage mods, the stove cooks any
   mod's food, and map mods open from the map table.
-- About 60 settings, each explained in plain English, for single player, friends' servers or pirate servers.
-- Hints the first time you use each thing aboard, and 20 advancements to work through.
+- About 75 settings, each explained in plain English, for single player, friends' servers or pirate servers.
+- Hints the first time you use each thing aboard, and 23 advancements to work through.
 
 ### Works with (all optional)
 - **Patchouli:** the Captain's Handbook, an in-game guide to everything.
