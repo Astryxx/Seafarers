@@ -1,0 +1,172 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+    id 'idea'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    exclusiveContent { // Sable
+        forRepository {
+            maven {
+                url = "https://maven.ryanhcode.dev/releases"
+                name = "RyanHCode Maven"
+            }
+        }
+        filter {
+            includeGroup("dev.ryanhcode.sable")
+            includeGroup("dev.ryanhcode.sable-companion")
+        }
+    }
+    exclusiveContent { // full Sable jar (with its embedded Veil + natives) for the dev runtime
+        forRepository {
+            maven {
+                url = "https://api.modrinth.com/maven"
+                name = "Modrinth"
+            }
+        }
+        filter {
+            includeGroup("maven.modrinth")
+        }
+    }
+    exclusiveContent { // FTB Chunks and FTB Teams (optional claim support)
+        forRepository {
+            maven {
+                url = "https://maven.ftb.dev/releases"
+                name = "FTB Maven"
+            }
+        }
+        filter {
+            includeGroup("dev.ftb.mods")
+        }
+    }
+}
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run/client')
+        }
+        // joins the local dev server straight away, at a fixed window size for screenshots
+        clientJoin {
+            client()
+            gameDirectory = project.file('run/client')
+            programArguments.addAll '--quickPlayMultiplayer', 'localhost:25565', '--width', '1280', '--height', '720'
+            // -PblockyMask: Sable's own block-shaped water mask instead of the exact hull one (to compare them)
+            if (project.hasProperty("blockyMask")) {
+                jvmArguments.add('-Dseafarers.blockyWaterMask=true')
+            }
+        }
+        // a second client so crew play can be tested on one machine
+        client2 {
+            client()
+            gameDirectory = project.file('run/client2')
+            programArguments.addAll '--username', 'Deckhand'
+        }
+        server {
+            server()
+            gameDirectory = project.file('run/server')
+            programArgument '--nogui'
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+    journeymapFull
+}
+
+// JourneyMap's API ships inside its jar (META-INF/jarjar); compile against that copy, from the pinned release
+def journeymapApi = tasks.register("journeymapApi", Copy) {
+    from({ zipTree(configurations.journeymapFull.singleFile) }) {
+        include "META-INF/jarjar/journeymap-api-*.jar"
+        eachFile { it.path = "journeymap-api.jar" }
+    }
+    includeEmptyDirs = false
+    into layout.buildDirectory.dir("compat")
+}
+
+dependencies {
+    // Sable API to compile against; the published Modrinth jar is what actually runs
+    compileOnly("dev.ryanhcode.sable:sable-neoforge-${minecraft_version}:${sable_version}") { transitive = false }
+    compileOnly("dev.ryanhcode.sable-companion:sable-companion-common-${minecraft_version}:${sable_companion_version}") { transitive = false }
+    localRuntime "maven.modrinth:sable:${sable_version}+mc${minecraft_version}"
+    // optional: the Captain's Handbook is a Patchouli book (the mod works without it); here only to test the book
+    localRuntime "maven.modrinth:patchouli:${patchouli_version}"
+    // optional: Jade tooltips for ships (only loaded when Jade is installed)
+    compileOnly "maven.modrinth:jade:${jade_version}"
+    localRuntime "maven.modrinth:jade:${jade_version}"
+
+    // optional integrations: compiled against, never bundled; each is only touched when that mod is installed
+    // (see dev.seafarers.compat). Run with -PcompatTest to load them all into the dev game.
+    def compat = ["maven.modrinth:jei:${jei_version}", "maven.modrinth:emi:${emi_version}",
+                  "maven.modrinth:journeymap:${journeymap_version}", "maven.modrinth:open-parties-and-claims:${opac_version}",
+                  "maven.modrinth:simple-voice-chat:${voicechat_version}"]
+    compat.findAll { !it.contains("journeymap") }.each { compileOnly(it) { transitive = false } }
+    journeymapFull("maven.modrinth:journeymap:${journeymap_version}") { transitive = false }
+    compileOnly files(layout.buildDirectory.file("compat/journeymap-api.jar")).builtBy(journeymapApi)
+    compileOnly("dev.ftb.mods:ftb-chunks-neoforge:${ftb_chunks_version}") { transitive = false }
+    compileOnly("dev.ftb.mods:ftb-teams-neoforge:${ftb_teams_version}") { transitive = false }
+    compileOnly("dev.ftb.mods:ftb-library-neoforge:${ftb_library_version}") { transitive = false }
+    if (project.hasProperty("compatTest")) {
+        // -PnoEmi leaves EMI out (EMI takes over JEI's plugins, so JEI's own are only seen without it)
+        compat.findAll { !(project.hasProperty("noEmi") && it.contains(":emi:")) }.each { localRuntime(it) { transitive = false } }
+    }
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            sable_version          : sable_version,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+// ship the license inside the jar
+tasks.named("jar") {
+    from("LICENSE") {
+        rename { "LICENSE_seafarers" }
+    }
+}
